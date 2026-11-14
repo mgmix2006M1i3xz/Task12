@@ -42,6 +42,7 @@
 #define MY_SIZE(type) ((size_t)((char*)((type*)0 + 1) - (char*)((type*)0)))
 
 int main() {
+
     printf("Размеры типов данных (без sizeof):\n");
     printf("1) char:               %lu\n", MY_SIZE(char));
     printf("2) short int:          %lu\n", MY_SIZE(short int));
@@ -55,11 +56,11 @@ int main() {
     printf("10) double:            %lu\n", MY_SIZE(double));
     printf("11) signed int:        %lu\n", MY_SIZE(signed int));
     return 0;
+    
 }
 
 3. Результаты работы программы
 
-text
 Размеры типов данных (без sizeof):
 1) char:               1
 2) short int:          2
