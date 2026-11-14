@@ -54,7 +54,6 @@ int main() {
     printf("9) float:              %lu\n", MY_SIZE(float));
     printf("10) double:            %lu\n", MY_SIZE(double));
     printf("11) signed int:        %lu\n", MY_SIZE(signed int));
-
     return 0;
 }
 
